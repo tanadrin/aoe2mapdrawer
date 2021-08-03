@@ -310,10 +310,6 @@ def generate_images(infile, outfile, heightmap):
     if heightmap != None:
         out_image_height.save(heightmap, "PNG")
         
-    unit_manager = scenario.unit_manager
-    for unit in unit_manager.units:
-        print(unit)
-        
     print("Images generated successfully.")
     exit()
 
